@@ -3,6 +3,7 @@ package JavaTest.a.util;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
+import java.util.Locale;
 
 public class StringUtil {
 	/**
@@ -15,6 +16,7 @@ public class StringUtil {
 	 * 结束位置
 	 */
 	public  String SubString(String string,int start,int end) {
+
 		return string.substring(start,end);  //hello
 	}
 	/**
@@ -25,7 +27,7 @@ public class StringUtil {
 	 * 分隔符
 	 * @return 
 	 */
-	public   String[] Split(String string,String str) {
+	public String[] Split(String string,String str) {
 		String s[]=string.split(str);
 		return s;
 	}
@@ -35,6 +37,7 @@ public class StringUtil {
 	 * 字符串
 	 */
 	public  String ToUpperCase(String string) {
+
 		return string.toUpperCase();
 	}
 	/**
@@ -42,10 +45,28 @@ public class StringUtil {
 	 * @param string
 	 * 字符串
 	 */
+	public String ToLowerCase(String string){
+
+		return string.toLowerCase();
+	}
+	/*
+	* 字符替换
+	* @param string
+	* 字符串
+	* @param str1
+	* 被替换字符
+	* @param str2
+	* 替换字符
+	*/
 	public String Replace(String string,String str1,String str2) {
 		String newString = string.replace(str1, str2);
 		return newString; //hexxo
 	}
+	/*
+	* 字节输出流，将java程序中的数据写到文件中
+	* 抽象父类 OutputStream
+	* 子类 FileOutputStream
+	*/
 	public void OutputStreamNext(String string2,StringBuffer sql) throws Exception{
 		File file = new File(string2);
 		OutputStream outputStream = new FileOutputStream(file,true);
