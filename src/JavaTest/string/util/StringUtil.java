@@ -159,7 +159,8 @@ public class StringUtil {
 	/**
 	 * 将一个指定的字符串替换成其他字符串
 	 * @param string
-	 * @param str
+	 * @param str1
+	 * @param str2
 	 */
 	public  void Replace(String string,String str1,String str2) {
 		String newString = string.replace(str1, str2);
