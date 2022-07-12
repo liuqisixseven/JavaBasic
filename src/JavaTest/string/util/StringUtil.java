@@ -2,6 +2,7 @@ package JavaTest.string.util;
 
 public class StringUtil {
 	/**
+	 *
 	 * 字符串与字符数组的转换
 	 * @param string
 	 * 字符串
