@@ -1,5 +1,9 @@
-package JavaTest.list;
+package JavaTest.list.bqy;
 
+
+
+
+import JavaTest.list.Node;
 
 import static JavaTest.list.Demo1.printNode;
 

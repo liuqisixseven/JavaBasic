@@ -1,7 +1,7 @@
 package JavaTest.list;
 
 
-class Link{
+public class Link{
 	class Node{
 		private String data;
 		private Node next;

@@ -1,6 +1,6 @@
 package JavaTest.list;
 
-class Node{
+public class Node{
 	private String data;
 	private Node next;
 	

@@ -1,4 +1,7 @@
-package JavaTest.list;
+package JavaTest.list.bqy;
+
+
+import JavaTest.list.Link;
 
 public class BqyDemo2 {
     public static void main(String[] args) {
