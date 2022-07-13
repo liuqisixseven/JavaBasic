@@ -1,10 +1,22 @@
 # 1、查询"01"课程比"02"课程成绩高的学生的信息及课程分数
 SELECT student.*,table3.1score,table3.2score from student INNER JOIN(
 SELECT table1.s_id,1score,2score from(
-(SELECT s_id,c_id as 1id,s_score as 1score from score where c_id = '1')table1 inner JOIN
-(SELECT s_id,c_id as 2id,s_score as 2score from score where c_id = '2')table2 on table1.s_id=table2.s_id) where 1score>2score
+(SELECT s_id,s_score as 1score from score where c_id = '1')table1 inner JOIN
+(SELECT s_id,s_score as 2score from score where c_id = '2')table2 on table1.s_id=table2.s_id) where 1score>2score
 )table3 
 on student.s_id = table3.s_id
+
+
+# 以上查询语句的思路如下
+# 首先写出  查询1课程下的学生编号和成绩   查询2课程下的学生编号和成绩
+# 将课程1和课程2都有成绩的人查询出来  需要用 inner join  后面  on 相当于 where 是条件  让s_id相等
+# 再对以上的结果进行条件查询  让 课程1成绩大于课程2的成绩
+# 和student进行连表查询，可使用右连接（right join ）或者内连接（inner join） 条件就是学生表的s_id等于以上查询结果的s_id
+# 写出需要查询的结果 学生表的全部=>student.*     成绩=> table3.1score,table3.2score
+
+
+
+
 
 #2、查询"01"课程比"02"课程成绩低的学生的信息及课程分数
 SELECT student.*,table3.1score,table3.2score from student INNER JOIN(
