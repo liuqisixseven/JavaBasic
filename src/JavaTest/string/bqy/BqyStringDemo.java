@@ -1,4 +1,4 @@
-package JavaTest.string;
+package JavaTest.string.bqy;
 
 public class BqyStringDemo {
     public static void main(String[] args) {
