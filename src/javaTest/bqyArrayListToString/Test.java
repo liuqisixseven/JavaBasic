@@ -38,7 +38,7 @@ public class Test {
         System.out.println("ArrayList: " + languages);
 
         // convert the arraylist into a string
-        String arraylist = String.join("",languages);
+        String arraylist = String.join(",",languages);
         System.out.println("String: " + arraylist);
     }
 }
