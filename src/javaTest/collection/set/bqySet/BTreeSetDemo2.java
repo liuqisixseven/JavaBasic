@@ -28,7 +28,7 @@ class Person implements Comparable<Person>{
     }
 }
 
-public class bTreeSetDemo2 {
+public class BTreeSetDemo2 {
     public static void main(String[] args) {
         Set<Person> set = new TreeSet<Person>();
         set.add(new Person("张三",30));
