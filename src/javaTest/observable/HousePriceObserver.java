@@ -1,8 +1,9 @@
 package javaTest.observable;
 
 import java.util.Observable;
+import java.util.Observer;
 
-public class HousePriceObserver implements Observer{
+public class HousePriceObserver implements Observer {
 	private String name;
 	public HousePriceObserver(String name) {
 		this.name=name;
