@@ -6,7 +6,7 @@ import java.util.LinkedList;
 * 以FIFO（先进先出）方式取出内容
 */
 
-public class bLinkedListDemo3 {
+public class BLinkedListDemo3 {
     public static void main(String[] args) {
         LinkedList<String> linkedList = new LinkedList<String>();
         linkedList.add("A");

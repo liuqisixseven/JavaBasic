@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-public class bVectorDemo {
+public class BVectorDemo {
     public static void main(String[] args) {
         List<String> list = new Vector<String>();
         list.add("World");

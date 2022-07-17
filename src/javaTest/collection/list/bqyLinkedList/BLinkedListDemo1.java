@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /*
 * 为链表增加数据
 */
-public class bLinkedListDemo1 {
+public class BLinkedListDemo1 {
     public static void main(String[] args) {
         LinkedList<String> linkedList = new LinkedList<String>();
         linkedList.add("A");

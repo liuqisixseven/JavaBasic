@@ -7,7 +7,7 @@ import java.util.TreeSet;
 * TreeSet不能加入重复元素
 * 自动排序
 * */
-public class bTreeSetDemo1 {
+public class BTreeSetDemo1 {
     public static void main(String[] args) {
         Set<String> set = new TreeSet<String>();
         set.add("B");

@@ -8,7 +8,7 @@ import java.util.List;
 *将集合变为对象数组
  */
 
-public class bArrayListDemo4 {
+public class BArrayListDemo4 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
         list.add("World");

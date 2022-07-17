@@ -6,7 +6,7 @@ import java.util.LinkedList;
 * 找到链表头
 */
 
-public class bLinkedListDemo2 {
+public class BLinkedListDemo2 {
     public static void main(String[] args) {
         LinkedList<String> linkedList = new LinkedList<String>();
         linkedList.add("A");

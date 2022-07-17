@@ -8,7 +8,7 @@ import java.util.List;
 * 增加操作
 * */
 
-public class bArrayListDemo1 {
+public class BArrayListDemo1 {
     public static void main(String[] args) {
         List<String> list = null;
         Collection<String> collection = null;

@@ -7,7 +7,7 @@ import java.util.List;
 * 删除操作
 * */
 
-public class bArrayListDemo2 {
+public class BArrayListDemo2 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
         list.add("World");

@@ -6,7 +6,7 @@ import java.util.Set;
 /*
 * HashSet类不能加入重复元素
 * */
-public class bHashSet {
+public class BHashSet {
     public static void main(String[] args) {
         Set<String> set = new HashSet<String>();
         set.add("A");

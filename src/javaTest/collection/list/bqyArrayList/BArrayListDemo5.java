@@ -7,7 +7,7 @@ package javaTest.collection.list.bqyArrayList;
 import java.util.ArrayList;
 import java.util.List;
 
-public class bArrayListDemo5 {
+public class BArrayListDemo5 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
         list.add("World");
