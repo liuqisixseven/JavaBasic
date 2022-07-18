@@ -11,7 +11,7 @@ public class GetClassDemo01 {
 		Class<?> c2 = null;
 		Class<?> c3 = null;
 		try {
-			c1 = Class.forName("reflect.classDemo.X");
+			c1 = Class.forName("javaTest.reflect.classDemo.X");
 		} catch (ClassNotFoundException e) {
 			// TODO: handle exception
 			e.printStackTrace();
