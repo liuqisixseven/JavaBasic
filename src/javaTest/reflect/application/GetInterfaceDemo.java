@@ -9,7 +9,7 @@ public class GetInterfaceDemo {
 	public static void main(String[] args) {
 		Class<?> class1 = null;
 		try {
-			class1 = Class.forName("reflect.application.Person");
+			class1 = Class.forName("javaTest.reflect.application.Person");
 		} catch (ClassNotFoundException e) {
 			// TODO: handle exception
 			e.printStackTrace();

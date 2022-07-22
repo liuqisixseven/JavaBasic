@@ -29,7 +29,7 @@ public class InstanceDemo01 {
 	public static void main(String[] args) {
 		Class<?> c = null;
 		try {
-			c = Class.forName("reflect.Person");
+			c = Class.forName("javaTest.reflect.Person");
 		} catch (ClassNotFoundException e) {
 			// TODO: handle exception
 			e.printStackTrace();

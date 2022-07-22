@@ -37,7 +37,7 @@ public class InstanceDemo02 {
 	public static void main(String[] args) {
 		Class<?> c = null;
 		try {
-			c = Class.forName("reflect.Person1");
+			c = Class.forName("javaTest.reflect.Person1");
 		} catch (ClassNotFoundException e) {
 			// TODO: handle exception
 			e.printStackTrace();
